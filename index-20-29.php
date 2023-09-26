@@ -115,7 +115,7 @@ var_dump($a <= $b); // True
 echo '<br>';
 var_dump($a != $b); // True
 echo '<br>';
-var_dump($a <= $c); // True
+var_dump($a <> $c); // True
 echo '<br>';
 var_dump($a !== $c); // True
 echo '<br>';
@@ -123,7 +123,7 @@ var_dump(gettype($a) === gettype($b)); // True
 echo '<br>';
 var_dump(gettype($a) == gettype($b)); // True
 echo '<br>';
-var_dump(gettype((float) $a) != gettype($b)); // True
+var_dump(gettype((float) $a) != gettype($b)); // True //repeated
 
 
 echo '<br>';

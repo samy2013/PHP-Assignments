@@ -233,6 +233,12 @@ for($i=$help_num ; $i<count($names) ; $i++){
 
     // echo $nums[$i].'<br>';
 }
+
+//another solution
+// for($i=$nums[$help_num] ; $i < $help_num ; $i++):
+//     echo $names[$i] . '<br>';
+// endfor;
+
 echo '<br>';
 echo '<br>';
 

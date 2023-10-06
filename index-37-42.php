@@ -118,6 +118,12 @@ for($i=$start; $i < count($mix) ; $i++){
     echo $mix[$i] . '<br>';
 }
 
+//another solution
+// for($i=++$start ; $i < count($mix) ; $i++){
+//     if (gettype($mix[$i]) == "integer"){
+//         echo $mix[$i] . '<br>';
+//     }
+// }
 echo '<br>';
 echo '<br>';
 

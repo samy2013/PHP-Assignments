@@ -209,13 +209,23 @@ if ($op == "+"){
 
 
 /*
-Output
- + Operator 28 
- - Operator 18 
- * Operator 115 
- / Operator 4 br 3 
- nything Else "Unknown Operation"
- 
+switch ($op){
+    case "+" :
+        echo $num_one + $num_two;
+        break;
+    case "-" :
+        echo $num_one - $num_two;
+        break;
+    case "*" :
+        echo $num_one * $num_two;
+        break;
+    case "/" :
+        echo (int)($num_one / $num_two)."<br>";
+        echo $num_one % $num_two;
+        break;
+    default :
+    echo "Unknown Operation";
+}
  */
 
 echo '<br>';

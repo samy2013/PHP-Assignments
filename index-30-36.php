@@ -162,8 +162,6 @@ case "FPS" :
     echo "I Recommend Uncharted Games";
 break;
 case "Platform" :
-    echo "I Recommend Megaman Games";
-break;
 case "Puzzle" :
     echo "I Recommend Megaman Games";
 break;

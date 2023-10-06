@@ -142,6 +142,12 @@ foreach($money as $key => $value){
     echo "The Name Is $key And I Need $value Pound From Him <br>";
 }
 
+// another solution
+// $keys = array_keys($money);
+// for ($i=0 ; $i < count($keys) ; $i++){
+//     echo "The Name Is " . $keys[$i] . " And I Need " . $money[$keys[$i]] . " Pound From Him <br>";
+// }
+
 echo '<br>';
 echo '<br>';
 

@@ -91,19 +91,11 @@ $start = 10;
 $end = 0;
 $stop = 3;
 
-
-for ($i = $start ; $i > $end ; $i--){
-    
-    
-    if ($i<$start){
-        echo $end.$i .'<br>';
-    }else{
-        echo $i.'<br>';
+for($i = $start ; $i >= $stop ; $i-- ){
+    if ($i < $start){
+        $i = $end . $i;
     }
-
-    if($i == $stop){
-        break;
-    }
+    echo $i.'<br>';
 }
 echo '<br>';
 echo '<br>';

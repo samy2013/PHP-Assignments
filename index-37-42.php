@@ -177,6 +177,22 @@ echo $numbers . " Numbers Printed".'<br>';
 echo $letters . " Letters Ignored".'<br>';
 
 
+//another solution
+// $mix = [1, 2, "A", "B", "C", 3, 4];
+
+// $printed = 0;
+// $ignored = 0;
+// foreach($mix as $value){
+//     if (gettype($value) === "integer"){
+//         echo $value . '<br>';
+//         $printed ++;
+//     }else{
+//         $ignored++;
+//     }
+// }
+// echo $printed . " Numbers Printed <br>";
+// echo $ignored . " Letters Ignored";
+
 echo '<br>';
 echo '<br>';
 

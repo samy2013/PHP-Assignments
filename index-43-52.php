@@ -37,22 +37,19 @@ echo '======== Assignment 2 - Lessons from 43-52 ========';
 echo '<br>';
 echo '<br>';
 
+// function get_arguments(...$words){
+//     foreach($words as $all):
+//         echo " $all" ;
+//     endforeach;
+//     echo "<br>" ;
+// }
 
-
-function get_arguments (...$words){
-
-    foreach(func_get_args() as $word){
-        echo ($word." ");
-    }
-    echo '<br>';
-
+function get_arguments(){
+    foreach(func_get_args() as $all):
+      echo $all." "; 
+    endforeach;
+    echo "<br>" ;
 }
-
-// Needed Output
-echo get_arguments("Hello", "Elzero", "Web", "School"); // Hello Elzero Web School
-echo get_arguments("I", "Love", "PHP"); // I Love PHP
-
-
 
 echo '<br>';
 echo '<br>';

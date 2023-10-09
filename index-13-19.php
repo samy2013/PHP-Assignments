@@ -1,4 +1,5 @@
 <?php
+
 echo '======== Assignment 1 - Lessons from 13-19 ========';
 echo '<br>';
 echo '<br>';

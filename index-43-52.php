@@ -1,4 +1,3 @@
-
 <?php
 
 echo '======== Assignment 1 - Lessons from 43-52 ========';

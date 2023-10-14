@@ -251,11 +251,18 @@ echo '<br>';
 $help_num = 4;
 $nums = [2, 4, 5, 6, 10];
 
+for($i=$help_num-$help_num ; $i<count($nums) ; $i++){
 
-foreach($nums as $num){
-            echo "\""."$num + ". $nums[$help_num] ."=" . $num+$nums[$help_num]."\"".'<br>';
-            $help_num--;
-    }
+    echo $nums[$i]."+".$nums[$help_num] ."=".$nums[$i]+$nums[$help_num].'<br>';
+    $help_num--;
+    
+}
+
+//another solution
+// foreach($nums as $num){
+    // echo "\""."$num + ". $nums[$help_num] ."=" . $num+$nums[$help_num]."\"".'<br>';
+    // $help_num--;
+ // }
 
 echo '<br>';
 echo '<br>';
